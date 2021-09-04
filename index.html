@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Welcome to Abul Bank</title>
+</head>
+<body>
+    <section class="paineer-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                <div id="login-area">
+                    <h1 class="text-center">Welcome to Abul Bank</h1>
+                    <div class="submit-area">
+                        <h4>Login</h4> <br>
+                        <input type="text" class="form-control" placeholder="Enter your name"> <br>
+                        <input type="password" class="form-control" placeholder="Enter your Password"> <br>
+                        <input id="login" class="btn btn-success" type="submit" value="Enter">
+                    </div>
+
+                </div>
+<!-- This transaction area section -->
+
+<div id="transaction-area">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="deposit bank-transaction">
+                <h5>Deposit</h5>
+                <h1>$ <span id="deposit-current">00</span></h1>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="withdraw bank-transaction">
+                <h5>Withdraw</h5>
+                <h1>$ <span id="current-withdraw">00</span></h1>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="balance bank-transaction">
+                <h5>Balance</h5>
+                <h1>$ <span id="current-balance">1240</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div id="deposit" class="amount-area">
+                <h4>Deposit</h4>
+                <input id="deposit-amount" type="text" class="form-control" placeholder="$ amount you want to deposit"> <br>
+                <input id="add-Deposit" type="submit" class="btn btn-success" value="Deposit">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div id="withdraw" class="amount-area">
+                <h4>Withdraw</h4>
+                <input id="withdraw-amount" type="text" class="form-control" placeholder="$ amount you want to withdraw"> <br>
+                <input id="add-Withdraw" type="submit" class="btn btn-success" value="Withdraw">
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+            
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
